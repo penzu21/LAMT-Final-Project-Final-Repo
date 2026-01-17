@@ -6,7 +6,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "lucide-react": "^0.268.0",
+    "lucide-react": "^0.268.0"
+  },
+  "devDependencies": {
     "typescript": "^4.9.5"
   },
   "scripts": {
@@ -14,5 +16,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "11.x"
   }
 }
+
