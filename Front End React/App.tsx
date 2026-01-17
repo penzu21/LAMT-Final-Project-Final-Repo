@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { AnimatedButton } from './components/AnimatedButton';
 import { Grid3x3, Ruler } from 'lucide-react';
 
+const API_BASE_URL = 'https://lamt-final-project-final-repo-1.onrender.com';
+
 export default function App() {
   const [numVectors, setNumVectors] = useState(3);
   const [vectorSize, setVectorSize] = useState(3);
